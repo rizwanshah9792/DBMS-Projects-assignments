@@ -1,17 +1,34 @@
-# University Database Project
+# SQL Database Projects Collection
 
-This project contains a SQL script for creating and managing a basic University database. It includes the structure of tables, relationships, and initial data entries relevant to a university system.
+This repository contains multiple SQL database projects for various domains and use cases. Each project includes SQL scripts to create and manage relational databases, along with sample data and queries for testing and demonstration purposes.
 
-## Project Description
+## Projects Overview
 
-The University Database project aims to provide a relational database schema that can handle various university operations such as managing students, courses, departments, and enrollments.
+### 1. University Database Project
 
-## Features
+* Manages students, courses, departments, and enrollments.
+* Ready-to-run `University.sql` file.
 
-* Creation of essential university tables such as Students, Courses, Departments, and Enrollments.
-* Relationships established using foreign keys.
-* Sample data insertion for demonstration purposes.
-* Ready-to-run SQL script compatible with MySQL/MariaDB or any standard SQL-compliant DBMS.
+### 2. Exam Questions Database
+
+* Contains schema and data related to exam question management.
+* Includes question banks, subjects, and difficulty levels.
+* File: `Exam_questions.sql`
+
+### 3. Four April Lab Database
+
+* A lab exercise database demonstrating various SQL operations and queries.
+* File: `Four_April_lab.sql`
+
+### 4. Sailor and Boat Database
+
+* Classic Sailor, Boat, and Reserves schema for practicing relational queries.
+* File: `Sailor_Boat.sql`
+
+### 5. Sales Database Project
+
+* Manages products, customers, sales transactions, and invoices.
+* File: `SalesDatabase.sql`
 
 ## Technologies Used
 
@@ -20,35 +37,33 @@ The University Database project aims to provide a relational database schema tha
 
 ## How to Use
 
-1. Install MySQL or any preferred SQL database.
-2. Open your SQL client (e.g., MySQL Workbench, phpMyAdmin).
-3. Import the `University.sql` file into your database.
+1. Install MySQL or your preferred SQL database.
+2. Use any SQL client (MySQL Workbench, phpMyAdmin, etc.).
+3. Import the desired `.sql` file into your database.
 4. Execute the script to create and populate the database.
-5. Explore and query the database using SQL.
-
-## Usage Example
-
-```sql
--- Get all students
-SELECT * FROM Students;
-
--- List all courses offered by the Computer Science department
-SELECT c.CourseName
-FROM Courses c
-JOIN Departments d ON c.DepartmentID = d.DepartmentID
-WHERE d.DepartmentName = 'Computer Science';
-```
+5. Explore and query the database using SQL commands.
 
 ## Folder Structure
 
 ```
 ├── University.sql
+├── Exam_questions.sql
+├── Four_April_lab.sql
+├── Sailor_Boat.sql
+├── SalesDatabase.sql
 └── README.md
 ```
 
 ## Author
 
 * Rizwan Shah
+
+## Connect with Me
+
+* [LinkedIn](https://www.linkedin.com/in/rizwan-shah-574851166/)
+* [GitHub](https://github.com/rizwanshah9792)
+* [Twitter](https://x.com/Rizwanshah9792)
+* [Instagram](https://www.instagram.com/r.shah_1.0/)
 
 ## License
 
